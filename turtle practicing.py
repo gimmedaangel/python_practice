@@ -1,10 +1,24 @@
 import turtle
 t = turtle.Turtle()
-t.speed(5)
-t.color("pink")
-t.pensize(100000000)
-for i in range(4):
-    t.forward(100)
-    t.right(80)
+# t.forward(200)
+# t.lt(90)
+# t.forward(200)
+# t.forward(200)
+# t.lt(90)
+# t.fd(200)
+
+t.color("red", "blue")
+t.begin_fill()
+t.fd(200)
+t.rt(240)
+t.fd(200)
+t.rt(240)
+t.fd(200)
+t.end_fill()
+
+t.penup()
+t.fd(100)
+t.pendown()
+
 
 turtle.done()
